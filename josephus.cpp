@@ -10,7 +10,7 @@ int main() {
 	up = (floor(log(x * 1.0) / log(2)));
 	print = (2 * (x - (pow(2,up))) + 1);
 	if ((print > x) || (print < 1)) {
-		cout << "something went wrong ... i have no fucking clue who stays alive\n";
+		cout << "something went wrong ... i have no clue who stays alive\n";
 		return 0;
 	}
 	cout << "the survivor is in position ";
